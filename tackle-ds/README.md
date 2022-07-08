@@ -16,7 +16,7 @@ It's not uncommon for data scientists to jump straight into data and modeling. M
 
 Sometimes the problem is very straightforward: such as predicting a default credit customer. Other times, you need to break your problem into smaller ones: for face recognition, you first need to identify a face and then match it with your database of faces. 
 
-However, the problem is not well defined most of the time. You will have data scattered around, and it will be hard to figure things out. A good way to have insights is to look online for similar problems. The [kaggle community](https://www.kaggle.com/) is very helpful for these situations. 
+However, the problem is not well defined most of the time. You will have data scattered around, and it will be hard to figure things out. An excellent way to have insights is to look online for similar problems. The [kaggle community](https://www.kaggle.com/) is very helpful for these situations. 
 
 <p align="center">
   <img src="https://github.com/yuri-gilferreira/myblog/blob/main/tackle-ds/imgs/data_problem.jpeg?raw=true" alt="Confused? Don't worry"/>
@@ -32,7 +32,7 @@ Standard practice here is to conduct an extensive **Exploratory Data Analysis**:
 
 ![tf_data_validation](imgs/tf_data_validation.png)
 
- - **Images** - computer vision is a growing topic in the data science field. It's becoming more often that your data will be photos and pictures. You will need to answer other problems: are the images of the same shape (width x height)? Is the resolution always the same? Are the pictures clear, or is it too bright or dark? Can a human understand it? Do I have enough examples? Your model input needs to be consistent across all the samples! You will have to crop, resize and brighten your data. Using the' PIL' library, you can do it quickly and at scale.
+ - **Images** - computer vision is a growing topic. It's becoming more often that your data will be photos and pictures. You will need to answer other problems: are the images of the same shape (width x height)? Is the resolution always the same? Are the pictures clear, or is it too bright or dark? Can a human understand it? Do I have enough examples? Your model input needs to be consistent across all the samples! You will have to crop, resize and brighten your data. Using the' PIL' library, you can do it quickly and at scale.
 
  - **Mixed** - sometimes, your data combine tables, images, text, and audio. You can then apply the abovementioned techniques to each part of your data. Then you just need to join all the information in a single usable dataset (use pandas again)
 
@@ -59,7 +59,7 @@ One final step before modeling is to split your data. The idea is to have unseen
 Finally, you get to the fun part! Here is where most of us like to be: showing off our excellent data science skills through state-of-the-art AI models. 
  - **Feature Engineering** - After thoroughly analyzing your data and understanding the business, create new features with your insights. Linear models don't fully capture feature interactions, and you might need to make your variables for them to have good results. 
  - **Machine Learning Models** - You can try different techniques and libraries depending on your problem. You might try logistic regression, gradient boosting trees, random forests, and even neural networks for classification tasks. For images, you can use convolutional neural networks with different architectures.
- - **Ensemble** - combining different models can lead to an incredible accuracy increase. The ensemble technique is standard practice in many Kaggle competitions but might be too complex or challenging in the real world. Use it at your own risk!
+ - **Ensemble** - combining different models can increase incredible accuracy. The ensemble technique is standard practice in many Kaggle competitions but might be too complex or challenging in the real world. Use it at your own risk!
 
 
 ## 6) Validate your model 
@@ -87,4 +87,6 @@ The final step is to measure the performance of your model. To do so, you can de
  - Validate your model - measure your model performance against the benchmark
 
 And the essential task, have fun!
+
+
 
