@@ -72,7 +72,7 @@ The final step is to measure the performance of your model. To do so, you can de
 </p>
 
 
- - **Regression** - usually, people use the [R-squared metric](https://en.wikipedia.org/wiki/Coefficient_of_determination). It tells how much your model can predict the response variable using your variables. Again, [sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.r2_score.html) is useful here
+ - **Regression** - usually, people use the [R-squared metric](https://en.wikipedia.org/wiki/Coefficient_of_determination). It tells how much your model can predict the response variable using your variables. Again, [sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.r2_score.html) is useful here.
 
 
 
