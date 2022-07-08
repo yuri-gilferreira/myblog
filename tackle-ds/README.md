@@ -22,8 +22,7 @@ Your solution should fit to the problem needs, not the other way around. It can 
 
 
 <p align="center">
-  <img src="https://github.com/yuri-gilferreira/myblog/blob/main/tackle-ds/imgs/data_problem.jpeg?raw=true" alt="Confused? Don't worry"  width="500" 
-     height="500">
+  <img src="https://github.com/yuri-gilferreira/myblog/blob/main/tackle-ds/imgs/data_problem.jpeg?raw=true" alt="Confused? Don't worry"/>
 </p>
 
 
