@@ -18,11 +18,12 @@ Sometimes the problem is very straightforward: such as predicting a default cred
 
 However, the problem is not well defined most of the time. You will have data scattered around, and it will be hard to figure things out. A good way to have insights is to look online for similar problems. The [kaggle community](https://www.kaggle.com/) is very helpful for these situations. 
 
-Your solution should fit to the problem needs as well. Sure, it can be a machine learning model (or several ones), a dashboard or decision-making framework using your model. It all depends on your problem needs and your creativity!
+Your solution should fit to the problem needs, not the other way around. It can be a machine learning model (or several ones), a dashboard or decision-making framework using your model. It all depends on your problem needs and your creativity!
 
 
 <p align="center">
-  <img src="https://github.com/yuri-gilferreira/myblog/blob/main/tackle-ds/imgs/data_problem.jpeg?raw=true" alt="Confused? Don't worry"/>
+  <img src="https://github.com/yuri-gilferreira/myblog/blob/main/tackle-ds/imgs/data_problem.jpeg?raw=true" alt="Confused? Don't worry"  width="500" 
+     height="500">
 </p>
 
 
