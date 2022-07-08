@@ -20,7 +20,7 @@ However, the problem is not well defined most of the time. You will have data sc
 
 Your solution should fit to the problem needs as well. Sure, it can be a machine learning model (or several ones), but it might as well be a dashboard, a decision-making framework using your model. It all depends on your problem needs and your creativity!
 
-![data-problem](imgs/data_problem.png)
+![data-problem](imgs/data_problem.jpeg)
 
 
 ## 2) Know your data
@@ -50,7 +50,7 @@ It is crucial to have a benchmark before the modeling phase. When you have a ref
 
 One final step before modeling is to split your data. The idea is to have unseen samples to validate your model later on. This way, you ensure that you are fairly testing your model against the benchmark. One way is to create 2 (or more) datasets with randomly selected samples. A handy tool is the [sklearn train test split function](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html). A good proportion is 80% to the train and 20%, but this can vary depending of your sample size and data type.
 
-![train_test_split](train_test_split.png)
+![train_test_split](imgs/train_test_split.png)
 
 ## 5) Start to Model
 
