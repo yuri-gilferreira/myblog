@@ -20,7 +20,7 @@ However, the problem is not well defined most of the time. You will have data sc
 
 Your solution should fit to the problem needs as well. Sure, it can be a machine learning model (or several ones), but it might as well be a dashboard, a decision-making framework using your model. It all depends on your problem needs and your creativity!
 
-(data-problem)[imgs/data_problem.png]
+![data-problem](imgs/data_problem.png)
 
 
 ## 2) Know your data
@@ -30,7 +30,7 @@ Data can come in many formats and flavors. It can be on SQL databases or a bunch
  - **Tables** - most of your data will be in tables. Sometimes in a single .csv file, sometimes in a database. You can use [pandas](https://pandas.pydata.org/) library to read and join these tables together.
 Standard practice here is to conduct an extensive **Exploratory Data Analysis**: to see what variables are numerical, text, and what needs to be categorized. Analyze them and check for frequent values using histograms and boxplots. I recommend both  [seaborn](https://seaborn.pydata.org/) and [TensorFlow data validation](https://www.tensorflow.org/tfx/data_validation/get_started) python libraries for this task.	
 
-(tf_data_validation)[tf_data_validation.png]
+![tf_data_validation](imgs/tf_data_validation.png)
 
  - **Images** - computer vision is a growing topic in the data science field. It's becoming more often that your data will be photos and pictures. You will need to answer other problems: are the images of the same shape (width x height)? Is the resolution always the same? Are the pictures clear, or is it too bright or dark? Can a human understand it? Do I have enough examples? Your model input needs to be consistent across all the samples! You will have to crop, resize and brighten your data. Using the' PIL' library, you can do it quickly and at scale.
 
@@ -50,7 +50,7 @@ It is crucial to have a benchmark before the modeling phase. When you have a ref
 
 One final step before modeling is to split your data. The idea is to have unseen samples to validate your model later on. This way, you ensure that you are fairly testing your model against the benchmark. One way is to create 2 (or more) datasets with randomly selected samples. A handy tool is the [sklearn train test split function](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html). A good proportion is 80% to the train and 20%, but this can vary depending of your sample size and data type.
 
-(train_test_split)[train_test_split.png]
+![train_test_split](train_test_split.png)
 
 ## 5) Start to Model
 
@@ -65,7 +65,7 @@ Finally, you get to the fun part! Here is where most of us like to be: showing o
 The final step is to measure the performance of your model. To do so, you can define your metric depending on the type of your task:
  - **Classification** - a good metric here is the [ROC-AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic) score. It measures how well your model can separate the positive and negative classes. You can use the [sklearn ROC-AUC function](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.htm) to measure it for both your training and test set easily. 
 
-(roc_image)[imgs/roc_auc.png]
+![roc_image](imgs/roc_auc.png)
 
  - **Regression** - usually, people use the [R-squared metric](https://en.wikipedia.org/wiki/Coefficient_of_determination). It tells how much your model can predict the response variable using your variables. Again, [sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.r2_score.html) is useful here
 
